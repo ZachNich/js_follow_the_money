@@ -1,0 +1,201 @@
+{
+    "politicians": [
+        {
+            "id": 1,
+            "name": "Mang0" 
+        },
+        {
+            "id": 2,
+            "name": "Plup"
+        },
+        {
+            "id": 3,
+            "name": "Axe"
+        }
+    ], 
+    "corporations": [
+        {
+            "id": 1,
+            "name": "Panda Global"
+        },
+        {
+            "id": 2,
+            "name": "Cloud 9"
+        },
+        {
+            "id": 3,
+            "name": "Tempo Storm"
+        }
+    ],
+    "pacs": [
+        {
+            "id": 1,
+            "name": "Smash Summit" 
+        },
+        {
+            "id": 2,
+            "name": "Genesis"
+        },
+        {
+            "id": 3,
+            "name": "Pound"
+        }
+    ],
+    "interests": [
+        {
+            "id": 1,
+            "name": "Edgeguarding"
+        },
+        {
+            "id": 2,
+            "name": "Combos"
+        }
+        {
+            "id": 3,
+            "name": "Movement"
+        }
+    ],
+    "bills": [
+        {
+            "id": 1,
+            "name": "4.20 - Combo Contests Affect Rankings",
+            "interestId": 2
+        },
+        {
+            "id": 2,
+            "name": "6.9 - Wobbling Is Banned",
+            "interestId": 3
+        },
+        {
+            "id": 3,
+            "name": "13.37 - Holding Ledge Not Actually Lame",
+            "interestId": 1
+        }
+    ],
+    "donations": [
+        {
+            "id": 1,
+            "amount": 528.98,
+            "date": "2019-03-13",
+            "corporationId": 2,
+            "pacId": 3
+        },
+        {
+            "id": 2,
+            "amount": 4122.01,
+            "date": "2019-12-25",
+            "corporationId": 1,
+            "pacId": 1
+        },
+        {
+            "id": 3,
+            "amount": 98.43,
+            "date": "2020-05-13",
+            "corporationId": 3,
+            "pacId": 3
+        }
+    ],
+    "politiciansBills": [
+        {
+            "id": 1,
+            "politicianId": 1,
+            "billId": 2
+        }
+        {
+            "id": 2,
+            "politicianId": 1,
+            "billId": 3
+        }
+        {
+            "id": 3,
+            "politicianId": 2,
+            "billId": 1
+        }
+        {
+            "id": 4,
+            "politicianId": 3,
+            "billId": 1
+        }
+        {
+            "id": 5,
+            "politicianId": 3,
+            "billId": 2
+        }
+    ],
+    "politiciansPacs": [
+        {
+            "id": 1,
+            "politicianId": 1,
+            "pacId": 2
+        },
+        {
+            "id": 1,
+            "politicianId": 2,
+            "pacId": 1
+        },
+        {
+            "id": 1,
+            "politicianId": 3,
+            "pacId": 3
+        }
+    ],
+    "corporationsPacs": [
+        {
+            "id": 1,
+            "corporationId": 1,
+            "pacId": 2
+        },
+        {
+            "id": 2,
+            "corporationId": 2,
+            "pacId": 3
+        },
+        {
+            "id": 3,
+            "corporationId": 3,
+            "pacId": 1
+        },
+        {
+            "id": 4,
+            "corporationId": 3,
+            "pacId": 3
+        }
+    ],
+    "corporationsInterests": [
+        {
+            "id": 1,
+            "corporationId": 1,
+            "interestId": 1
+        },
+        {
+            "id": 2,
+            "corporationId": 1,
+            "interestId": 2
+        },
+        {
+            "id": 3,
+            "corporationId": 2,
+            "interestId": 1
+        },
+        {
+            "id": 4,
+            "corporationId": 2,
+            "interestId": 3
+        },
+        {
+            "id": 5,
+            "corporationId": 3,
+            "interestId": 1
+        },
+        {
+            "id": 6,
+            "corporationId": 3,
+            "interestId": 2
+        },
+        {
+            "id": 7,
+            "corporationId": 3,
+            "interestId": 3
+        }
+    ]
+}

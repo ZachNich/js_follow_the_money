@@ -49,7 +49,7 @@
         {
             "id": 2,
             "name": "Combos"
-        }
+        },
         {
             "id": 3,
             "name": "Movement"
@@ -100,22 +100,22 @@
             "id": 1,
             "politicianId": 1,
             "billId": 2
-        }
+        },
         {
             "id": 2,
             "politicianId": 1,
             "billId": 3
-        }
+        },
         {
             "id": 3,
             "politicianId": 2,
             "billId": 1
-        }
+        },
         {
             "id": 4,
             "politicianId": 3,
             "billId": 1
-        }
+        },
         {
             "id": 5,
             "politicianId": 3,
